@@ -10,6 +10,10 @@ using System.Windows.Forms;
 
 namespace CifruCompus
 {
+    /*
+       clasa folosita pentru implementarea ferestrelor de vizualizare a continutului
+       fisierelor de intrare si iesire
+    */
     public partial class FisierIncarcat : Form
     {
         

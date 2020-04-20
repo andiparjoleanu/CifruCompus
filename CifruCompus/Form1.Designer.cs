@@ -40,6 +40,7 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.cheieSubstitutie = new System.Windows.Forms.TextBox();
+            this.eroareCheieSubstitutie = new System.Windows.Forms.Label();
             this.tableLayoutPanel6 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel7 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel8 = new System.Windows.Forms.TableLayoutPanel();
@@ -53,7 +54,6 @@
             this.cripteaza = new System.Windows.Forms.Button();
             this.decripteaza = new System.Windows.Forms.Button();
             this.vizualizeazaTextCriptat = new System.Windows.Forms.Button();
-            this.eroareCheieSubstitutie = new System.Windows.Forms.Label();
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
             this.tableLayoutPanel3.SuspendLayout();
@@ -242,6 +242,18 @@
             this.cheieSubstitutie.Size = new System.Drawing.Size(351, 32);
             this.cheieSubstitutie.TabIndex = 3;
             this.cheieSubstitutie.TextChanged += new System.EventHandler(this.cheieSubstitutie_TextChanged);
+            // 
+            // eroareCheieSubstitutie
+            // 
+            this.eroareCheieSubstitutie.AutoSize = true;
+            this.eroareCheieSubstitutie.BackColor = System.Drawing.SystemColors.Control;
+            this.eroareCheieSubstitutie.Font = new System.Drawing.Font("Trebuchet MS", 8F);
+            this.eroareCheieSubstitutie.ForeColor = System.Drawing.Color.Red;
+            this.eroareCheieSubstitutie.Location = new System.Drawing.Point(3, 215);
+            this.eroareCheieSubstitutie.Name = "eroareCheieSubstitutie";
+            this.eroareCheieSubstitutie.Size = new System.Drawing.Size(0, 22);
+            this.eroareCheieSubstitutie.TabIndex = 4;
+            this.eroareCheieSubstitutie.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // tableLayoutPanel6
             // 
@@ -436,18 +448,6 @@
             this.vizualizeazaTextCriptat.Text = "Afiseaza continutul fisierului rezultat";
             this.vizualizeazaTextCriptat.UseVisualStyleBackColor = false;
             this.vizualizeazaTextCriptat.Click += new System.EventHandler(this.vizualizeazaTextCriptat_Click);
-            // 
-            // eroareCheieSubstitutie
-            // 
-            this.eroareCheieSubstitutie.AutoSize = true;
-            this.eroareCheieSubstitutie.BackColor = System.Drawing.SystemColors.Control;
-            this.eroareCheieSubstitutie.Font = new System.Drawing.Font("Trebuchet MS", 8F);
-            this.eroareCheieSubstitutie.ForeColor = System.Drawing.Color.Red;
-            this.eroareCheieSubstitutie.Location = new System.Drawing.Point(3, 215);
-            this.eroareCheieSubstitutie.Name = "eroareCheieSubstitutie";
-            this.eroareCheieSubstitutie.Size = new System.Drawing.Size(0, 22);
-            this.eroareCheieSubstitutie.TabIndex = 4;
-            this.eroareCheieSubstitutie.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Form1
             // 
